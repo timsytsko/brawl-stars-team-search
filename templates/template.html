@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block css %}{% endblock %}
+    <link rel="stylesheet" href="../static/css/header.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <header class="p-3 bg-dark text-white">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="/" class="nav-link px-2 text-white">TEAMUP</a></li>
+                </ul>
+                <div class="text-end" id="login-signup">
+                    <a href="/login" class="btn btn-outline-light me-2">login</a>
+                    <a href="/signup" class="btn btn-warning">sign up</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="../static/js/header.js"></script>
+    <main class="bg-dark">
+        {% block main %}{% endblock %}
+    </main>
+    <footer>
+        footer
+    </footer>
+    <script src="https://unpkg.com/detect-file-encoding-and-language/umd/language-encoding.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+#username {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: xx-large;
+    color: white;
+}
+
+#bs-stats {
+    margin: auto;
+    width: 40%;
+    border: 1px white solid;
+    border-radius: 3px;
+    color: white;
+}
+
+#bs-username {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: large;
+    color: white;
+}
+
+#bs-tag {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: medium;
+    color: grey;
+}
+
+#account-info {
+    margin-bottom: 4%;
+}
+
+#trophies {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+#highest-trophies {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.victories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1%;
+}
+
+#brawlers {
+    margin: auto;
+    width: 40%;
+    color: white;
+}
+
+.brawler {
+    padding: 2%;
+    border: 1px white solid;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brawler-img {
+    max-width: auto;
+    max-height: auto;
+}
+
+.brawler-name {
+    font-size: 450%;
+    margin-right: 20%;
+    text-decoration: none;
+    color: white;
+}
